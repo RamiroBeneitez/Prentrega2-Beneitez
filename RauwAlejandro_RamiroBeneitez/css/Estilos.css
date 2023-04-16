@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Source Sans Pro', sans-serif;
+    src: url(../assets/fonts/Source_Sans_Pro.zip);
+
+}
+
+*{ 
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.CuerpoDePag{
+
+    background-image: url(../assets/img/Estrellas.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.CABECERA{
+        background:linear-gradient(to left,rgba(2, 0, 3, 0.767),rgba(2, 0, 3, 0.767)) ;
+        top:0;
+        position: sticky;
+        
+        
+        
+}
+.logo{
+    width: 15rem
+}
+.Navegacion{
+    width: 40%;
+    text-decoration: none;
+    justify-content: space-between;
+    
+    
+    
+
+     
+    
+            
+}
+.ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    
+    
+    
+    
+
+}
+.ListaItem{
+            list-style: none;
+            
+            
+            
+}
+    
+
+              
+.linknav {
+        color: white;
+        text-decoration: none;/*links sin decoraciones*/
+    font-size: 1,5em;/*tamaño de la letra*/
+  
+
+        
+        
+        
+        
+}
+.SeccionUltimosLanzamientos{
+
+                    text-align: center;
+                    
+                    
+
+}
+.TituloPrincipal{
+    text-align: center;
+}
+                
+
+.Videos{
+        display:inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        justify-content:space-around;
+        align-items:flex-start;
+        padding: 40px;
+        
+}
+.fondo_bio{ background:linear-gradient(to left, rgba(0, 0, 0, 0.753),rgba(0, 0, 0, 0.753)),url(../assets/img/Rauw\ bio.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#bio .bio_bg .bio_parrafo{    font-size: 1rem;
+    font-weight: 300;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1em;
+    margin: 0 3em;}
+#bio .bio_titulo {
+        font-size: calc(1.525rem + 3.3vw);
+        line-height: 1.2;
+        padding-left: 3rem;
+        }
+.fondo_discografia{ background: linear-gradient(to left, rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)),url(../assets/img/fondo\ disco.jpg);
+    background-size:cover;
+    background-position:center;
+
+}
+.fondo_tour{
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)),url(../assets/img/Saturno\ fondo.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+
+
+
+
