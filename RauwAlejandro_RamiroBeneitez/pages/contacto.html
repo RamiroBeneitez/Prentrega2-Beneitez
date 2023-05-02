@@ -20,7 +20,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" >
+                <div class="collapse navbar-collapse"  id="navbarSupportedContent" >
                 <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
                 <a class="nav-link"  href="../index.html">INICIO</a>
@@ -47,28 +47,51 @@
 <main>
     <!--Contactos-->
     <section>
-        <div class="container">
-            <div>
-                <h1>Contacto</h1>
+        <div class="container titulocontacto">
+          <div>
+            <h1>Contacto</h1>
+            <hr class="featurette-divider white">
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-xl-12 col-sm-12 contactodivision">
+            <i class="fa-regular fa-at"></i>
+            <a class="contactotexto" href="mailto:info@duars.com" target="_blank">info@duars.com</a>
+            <a class="contactotexto" href="mailto:booking@duars.com" target="_blank">booking@duars.com</a>
+          </div>
+          <div class="col-xl-12 col-sm-12 contactodivision"> 
+            <i class="fa-brands fa-facebook-f iconos"> </i>
+            <a class="contactotexto" href="https://www.facebook.com/duarsentertainment" target="_blank">Duars Entertainment</a>
+          </div>
+          <div class="col-xl-12 col-sm-12 contactodivision">
+            <i class="fa-brands fa-twitter  iconos"></i>
+            <a class="contactotexto" href="https://twitter.com/duarsent" target="_blank">@duarsent</a>
+          </div>
+          <div class="col-xl-12 col-sm-12 contactodivision">
+            <i class="fa-brands fa-instagram iconos"></i>
+            <a class="contactotexto" href="https://instagram.com/duarsentertainment">Duars Entertainment</a>     
+          </div>
+        </div>
+      </section>
+      
+      
+      
+    <!--formulario de suscripcion-->
+    <section>
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <h2 class="text-center mb-4">Suscríbite a nuestro boletín de noticias</h2>
+                        <form action="#" method="POST">
+                            <div class="input-group mb-3">
+                                <input type="email" class="form-control" placeholder="Tu correo electrónico" aria-label="Tu correo electrónico" aria-describedby="basic-addon2">
+                                <button class="btn btn-primary" type="submit" id="basic-addon2">Suscribirme</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-       </div>
-       <div>
-            <i class="fa-brands fa-facebook-f iconos"></i>
-            <a href="mailto:info@duars.com" target="_blank">info@duars.com</a>
-            <a href="mailto:booking@duars.com" target="_blank">booking@duars.com</a>
-       </div>
-       <div> 
-            <i> </i>
-             <a href="https://www.facebook.com/duarsentertainment" target="_blank">Duars Entertainment</a>
-       </div>
-       <div>
-            <i></i>
-            <a href="https://twitter.com/duarsent" target="_blank">@duarsent</a>
-       </div>
-            <i></i>
-            <a href="https://instagram.com/duarsentertainment">Duars Entertainment</a>     
-
-
+         
     </section>
 </main>
 <!--footer-->

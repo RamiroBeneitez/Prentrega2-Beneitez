@@ -15,32 +15,32 @@
          <header class="CABECERA">
             
             <!--barra de navegacion-->
-            <nav class="navbar navbar-expand-md navbar-dark sticky-top dark">
+            <nav class="navbar navbar-expand-md navbar-dark">
               <div class="container">
                   <a class="navbar-brand" href="#">
                   <img src="./assets/img/rauw titulo.jpg" alt="logo" class="logo">
                   </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"  aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                   </button>
-                  <div class="collapse navbar-collapse">
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
                   </li>
-                  <li class="nav-item dropdown">
+                  <li class="nav-item ">
                   <a class="nav-link " href="./pages/bio.html">
                     BIO
                   </a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" href="./discografia.html">DISCOGRAFIA</a>
+                  <a class="nav-link" href="./pages/discografia.html">DISCOGRAFIA</a>
                   </li>                 
                   <li class="nav-item">
-                  <a class="nav-link" href="./tour.html">TOUR</a>
+                  <a class="nav-link" href="./pages/tour.html">TOUR</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" href="./contacto.html">CONTACTO</a>
+                  <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
                   </li>
                   </ul>
                   </div>
@@ -51,8 +51,8 @@
         <main>
             <section>
               <!--Ultimos videos-->
-                <div>
-                    <h1 class="TituloPrincipal"> Ultimos Videos</h1>
+                <div class="tituloindex">
+                    <h1 class="TituloPrincipal"> ULTIMOS VIDEOS</h1>
                     <hr class="featurette-divider white">
                 </div>
 
@@ -64,36 +64,41 @@
                 </div>
                 
             </section>
-            <section>|
-              <!--Nuevo Album-->
-                <div class="container" >
-                     <div class="row justify-content-evenly">
-                       <div class="col-sm-12 col-md-12 col-lg-6 col-xxl-6">
-                        <div class="card" style="width: 20rem;">
-                          <img src="./assets/img/saturno portada album.jpg" class="card-img-top" alt="Saturnotapa">
-                          <div class="card-body $blue-900">
-                            <h5 class="card-title">SATURNO NUEVO ALMBUM</h5>
-                            <p class="card-text ">Ya disponible en todas las plataformas</p>
-                            <a href="https://open.spotify.com/album/6QYD0sLnZNUviYe2iBL2c3?si=XrkqELPGQW-Z2IsADNadQA" target="_blank" class="btn btn-primary">Spotify</a>
-                            <a href="https://www.youtube.com/playlist?list=PLhK8A9K_cnZR666BM1Xx8G3YodiVWiM92" target="_blank" class="btn btn-primary">Youtube</a>
-                            <a href="https://music.apple.com/es/album/saturno/1665293359" target="_blank" class="btn btn-primary">Apple Music</a>
-                          </div>
+            
+            <section class="bg" >
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-6 col-sm-12">
+                    <div class="card">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">SATURNO NUEVO ALBUM STUDIO</h5>
+                        <p class="card-text mb-4">ESCUCHALO EN TUS PLATAFORMAS PREFERIDAS</p>
+                        <img src="./assets/img/saturno portada album.jpg" class="imagenindex img-fluid" alt="imagenindex">
+                        <div class="botones">
+                        <a href="https://open.spotify.com/album/5AcRssiG0Zqu3lqYW7hMoM?si=jbJI6-7JQ8CDBQmriEqXMA" target="_blank"><button class="btn btn-custom"><span>SPOTIFY</span></button></a>
+                        <a href="https://youtube.com/playlist?list=OLAK5uy_kIVZbDqHZEqhCdjjEMm-PoYy0l3GpXHto" target="_blank"><button class="btn btn-custom"><span>YOUTUBE</span></button></a>
+                        <a href="https://music.apple.com/us/album/saturno/1665293359" target="_blank" ><button class="btn btn-custom"><span>SOUNDCLOUD</span></button></a>
                         </div>
-
-                <!--Merch-->
-                        <div class="col-sm-12 col-md-12 col-lg-6 col-xxl-6">         
-                            <div>
-                            <h2>Zorro Stuff</h2>
-                            <h3>Merch Oficial</h3>
-                            <p>Nueva colección 2023</p>
-                            </div>
-                            <div><img src="./assets/img/zorro stuff.jpg" class="img-thumbnail img-fluid" alt="merch"></div>                
-                            <div><a href="https://zorrostuff.com/collections/athletic-stuff" target="_blank"><button><i class="icono_merch"></i> Conoce mas</button></a></div>
-                        </div>
+                      </div>
                     </div>
+                  </div>
+                  <div class="col-xl-6 col-sm-12">
+                    <div class="card">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">ZORRO STUFF MERCH OFICIAL</h5>
+                        <p class="card-text mb-4">NUEVA COLECCION 2023 YA DISPONIBLE.</p>
+                        <div>
+                        <img src="./assets/img/zorro stuff.jpg" class="imagenindex img-fluid " alt="imagenindex">
+                        </div>
+                        <div class="botones">
+                        <a href="https://zorrostuff.com/collections/athletic-stuff" target="_blank"><button class="btn btn-custom"><span>CONOCE MAS</span></button></a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </section>
-        </main>
+            
         <!--Footer-->
         <footer class="pie-footer">
             <div class="container">
